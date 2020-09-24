@@ -28,6 +28,8 @@ def printinfo(ulist,num):
         u=ulist[i]
         print(u[0],u[1],u[2],u[3])
 def main(page):
+
+    print('test!')
     url='https://movie.douban.com/top250?start='+str(page*25)+'&filter='
     uinfo=[]
     html=get(url)
